@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample-Site16</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+<nav>
+  <div class="logo">
+        <h1>Sample-Site</h1>
+  </div>
+  <div class="menu">
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+        <div class="bar bar3"></div>
+  </div>
+  <ul class="nav-links">
+        <li><a id="menu_about" href="#about">About</a></li>
+        <li><a id="menu_services" href="#services">Services</a></li>
+        <li><a id="menu_portfolio" href="#portfolio">Portfolio</a></li>
+        <li><a id="menu_contact" href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+
+<div id="container">
+		
+  <div id="mainVisual">
+    <div id="mainText">
+      <h1>welcom to my site!</h1>
+      <h2>IT'S NICE TO MEET YOU.</h2>
+      <div class="button"><a href="#main">See More</a></div>
+    </div>
+    <img src="images/main.jpg">
+  </div>
+
+  <div id="main">
+
+    <div id="about">
+      <h2 class="contents-title">About</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>会社名</th>
+            <td>株式会社○○</td>
+          </tr>
+          <tr>
+            <th>英文社名</th>
+            <td>○○ Co., Ltd.</td>
+          </tr>
+          <tr>
+            <th>代表者名</th>
+            <td>山田　太郎</td>
+          </tr>
+          <tr>
+            <th>設立</th>
+            <td>○○年○月○日</td>
+          </tr>
+          <tr>
+            <th>本社所在地</th>
+            <td>
+              〒000-0000<br>
+              住所○○
+            </td>
+          </tr>
+          <tr>
+            <th>電話番号</th>
+            <td>○○-○○○○-○○○○</td>
+          </tr>
+          <tr>
+            <th>資本金</th>
+            <td>○000,000,000円</td>
+          </tr>
+          <tr>
+            <th>社員数</th>
+            <td>○○名</td>
+          </tr>
+          <tr>
+            <th>事業内容</th>
+            <td>
+              ウェブサイトの企画、開発<br>
+              各種システム開発<br>
+              ウェブマーケティング業務
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        このサイトはaiが作成したHTMLのテンプレートです。<br>
+        使用する場合、文面・画像を差し替えて、お使いください。<br>
+        ダウンロードは<a id="download-link" href="https://github.com/airis0/site-template16">こちら</a>です。
+      </p>
+    </div>
+
+    <hr>
+
+    <div id="services">
+      <h2 class="contents-title">Services</h2>
+      <div id="cardlayout-wrap">
+        <section class="card-list">
+          <figure class="card-figure"><img src="./images/service1.jpg"></figure>
+          <h2 class="card-title">SEO対策</h2>
+          <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+        <section class="card-list">
+          <figure class="card-figure"><img src="./images/service2.jpg"></figure>
+          <h2 class="card-title">Webサイト制作</h2>
+          <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+        <section class="card-list">
+          <figure class="card-figure"><img src="./images/service3.jpg"></figure>
+          <h2 class="card-title">アプリ制作</h2>
+          <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="portfolio">
+      <h2 class="contents-title">Portfolio</h2>
+      <div id="cardlayout-wrap">
+        <section class="card-list">
+          <a class="card-link js-open" data-id="1" href="javascript:void(0);">
+            <figure class="card-figure"><img src="./images/demo1.jpg"></figure>
+          </a>
+            <h2 class="card-title">ポートフォリオ1</h2>
+            <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+        <section class="card-list">
+          <a class="card-link js-open" data-id="2" href="javascript:void(0);">
+            <figure class="card-figure"><img src="./images/demo2.jpg"></figure>
+          </a>
+            <h2 class="card-title">ポートフォリオ2</h2>
+            <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+        <section class="card-list">
+          <a class="card-link js-open" data-id="3" href="javascript:void(0);">
+            <figure class="card-figure"><img src="./images/demo3.jpg"></figure>
+          </a>
+            <h2 class="card-title">ポートフォリオ3</h2>
+            <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+        <section class="card-list">
+          <a class="card-link js-open" data-id="4" href="javascript:void(0);">
+            <figure class="card-figure"><img src="./images/demo4.jpg"></figure>
+          </a>
+            <h2 class="card-title">ポートフォリオ4</h2>
+            <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+        <section class="card-list">
+          <a class="card-link js-open" data-id="5" href="javascript:void(0);">
+            <figure class="card-figure"><img src="./images/demo5.jpg"></figure>
+          </a>
+            <h2 class="card-title">ポートフォリオ5</h2>
+            <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+        <section class="card-list">
+          <a class="card-link js-open" data-id="6" href="javascript:void(0);">
+            <figure class="card-figure"><img src="./images/demo6.jpg"></figure>
+          </a>
+            <h2 class="card-title">ポートフォリオ6</h2>
+            <p class="card-text-tax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.</p>
+        </section>
+      </div>
+
+      <!-- オーバーレイ -->
+      <div id="overlay" class="overlay"></div>
+
+      <!-- モーダルウィンドウ1 -->
+      <div class="modal-window" data-id="modal1">
+        <p>ポートフォリオ1</p>
+        <img src="./images/demo1.jpg" style="width: 100%;">
+        <div class="scroll-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commodo ligula eget dolor.
+          Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          Nulla consequat massa quis enim.
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+          Nullam dictum felis eu pede mollis pretium.
+          Integer tincidunt.
+          Cras dapibus.
+          Vivamus elementum semper nisi.
+          Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet.
+          Quisque rutrum. Aenean imperdiet.
+          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+          Nam eget dui. Etiam rhoncus.
+        </p>
+        </div>
+        <button class="js-close button-close">Close</button>
+      </div>
+      <!-- モーダルウィンドウ2 -->
+      <div class="modal-window" data-id="modal2">
+        <p>ポートフォリオ2</p>
+        <img src="./images/demo2.jpg" style="width: 100%;">
+        <div class="scroll-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commodo ligula eget dolor.
+          Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          Nulla consequat massa quis enim.
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+          Nullam dictum felis eu pede mollis pretium.
+          Integer tincidunt.
+          Cras dapibus.
+          Vivamus elementum semper nisi.
+          Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet.
+          Quisque rutrum. Aenean imperdiet.
+          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+          Nam eget dui. Etiam rhoncus.
+        </p>
+        </div>
+        <button class="js-close button-close">Close</button>
+      </div>
+      <!-- モーダルウィンドウ3 -->
+      <div class="modal-window" data-id="modal3">
+        <p>ポートフォリオ3</p>
+        <img src="./images/demo3.jpg" style="width: 100%;">
+        <div class="scroll-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commodo ligula eget dolor.
+          Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          Nulla consequat massa quis enim.
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+          Nullam dictum felis eu pede mollis pretium.
+          Integer tincidunt.
+          Cras dapibus.
+          Vivamus elementum semper nisi.
+          Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet.
+          Quisque rutrum. Aenean imperdiet.
+          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+          Nam eget dui. Etiam rhoncus.
+        </p>
+        </div>
+        <button class="js-close button-close">Close</button>
+      </div>
+      <!-- モーダルウィンドウ4-->
+      <div class="modal-window" data-id="modal4">
+        <p>ポートフォリオ4</p>
+        <img src="./images/demo4.jpg" style="width: 100%;">
+        <div class="scroll-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commodo ligula eget dolor.
+          Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          Nulla consequat massa quis enim.
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+          Nullam dictum felis eu pede mollis pretium.
+          Integer tincidunt.
+          Cras dapibus.
+          Vivamus elementum semper nisi.
+          Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet.
+          Quisque rutrum. Aenean imperdiet.
+          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+          Nam eget dui. Etiam rhoncus.
+        </p>
+        </div>
+        <button class="js-close button-close">Close</button>
+      </div>
+      <!-- モーダルウィンドウ5 -->
+      <div class="modal-window" data-id="modal5">
+        <p>ポートフォリオ5</p>
+        <img src="./images/demo5.jpg" style="width: 100%;">
+        <div class="scroll-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commodo ligula eget dolor.
+          Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          Nulla consequat massa quis enim.
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+          Nullam dictum felis eu pede mollis pretium.
+          Integer tincidunt.
+          Cras dapibus.
+          Vivamus elementum semper nisi.
+          Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet.
+          Quisque rutrum. Aenean imperdiet.
+          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+          Nam eget dui. Etiam rhoncus.
+        </p>
+        </div>
+        <button class="js-close button-close">Close</button>
+      </div>
+      <!-- モーダルウィンドウ6-->
+      <div class="modal-window" data-id="modal6">
+        <p>ポートフォリオ6</p>
+        <img src="./images/demo6.jpg" style="width: 100%;">
+        <div class="scroll-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commodo ligula eget dolor.
+          Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          Nulla consequat massa quis enim.
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+          Nullam dictum felis eu pede mollis pretium.
+          Integer tincidunt.
+          Cras dapibus.
+          Vivamus elementum semper nisi.
+          Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet.
+          Quisque rutrum. Aenean imperdiet.
+          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+          Nam eget dui. Etiam rhoncus.
+        </p>
+        </div>
+        <button class="js-close button-close">Close</button>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div id="contact">
+      <h2 class="contents-title">Contact</h2>
+      <form method="post" action="/">
+        <table class="form-table">
+          <tbody>
+            <tr>
+              <th>氏名</th>
+              <td><input type="text" name="name" size="60" value="" placeholder="山田太郎">
+              </td>
+            </tr>
+            <tr>
+              <th>メールアドレス</th>
+              <td><input type="text" name="email" size="60" value="" placeholder="sample@sample.jp">
+              </td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td><input type="text" name="tel" size="60" value="" placeholder="03-1234-5678">
+              </td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td><textarea name="content" cols="30" rows="10" placeholder="お問い合わせ内容を入力してください。"></textarea>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button id="submit-btn" type="submit">送信</button>
+      </form>
+    </div>
+
+  </div>
+
+  <footer>
+    <p id="copyright"><small>Copyright&copy; 2021 Sample-Site. All Rights Reserved.</small></p>
+  </footer>
+
+<script src="./js/jquery-2.1.4.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
